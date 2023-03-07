@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fontAwesome {
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navbar {
+    list-style: none;
+    display: flex;
+}
+
+.header__navbar li a {
+    line-height: 63px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    padding: 0 15px;
+    display: block;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.header__control {
+    display: flex;
+}
+
+.header__control .header__contorl-input {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 16px;
+    outline: none;
+}
+
+.header__control .header__contorl-input::placeholder {
+    opacity: 0.2;
+}
