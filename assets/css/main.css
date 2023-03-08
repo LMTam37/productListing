@@ -116,6 +116,7 @@ img {
     color: var(--primary-color);
     background-color: #fff;
     cursor: pointer;
+    position: relative;
 }
 
 .filter .filter__item:hover {
@@ -186,6 +187,18 @@ img {
 
 .sort__select li:hover {
     background-color: #ddd;
+}
+
+.vertical-line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 2px solid #459D7A;
+    height: 28px;
+    right: 0px;
+    top: 50%;
+    opacity: 0.3;
+    transform: translateY(-50%);
 }
 
 @keyframes fadeIn {
