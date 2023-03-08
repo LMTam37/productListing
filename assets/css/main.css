@@ -344,6 +344,10 @@ img {
     cursor: pointer;
 }
 
+.footer__list-subcribe-button:hover {
+    opacity: 0.6;
+}
+
 .footer__list-brand {
     display: flex;
 }
