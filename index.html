@@ -71,16 +71,27 @@
             <button class="filter__item">Body</button>
           </div>
 
-          <div class="search">
-            <input
-              type="text"
-              class="fontAwesome search__contorl-input"
-              placeholder="&#xf002; Search product..."
-            />
-            <button class="search__sort-button">
-              Sort by
-              <i class="fa-solid fa-filter"></i>
-            </button>
+          <div class="view__control">
+            <div class="search-section">
+              <input
+                type="text"
+                class="fontAwesome search__contorl-input"
+                placeholder="&#xf002; Search product..."
+              />
+            </div>
+
+            <div class="sort-section">
+              <button class="sort-section__button">
+                Sort by
+                <i class="fa-solid fa-filter"></i>
+                <ul class="sort__select">
+                  <li>Our favourites</li>
+                  <li>Price high to low</li>
+                  <li>Price low to high</li>
+                </ul>
+              </button>
+              
+            </div>
           </div>
         </div>
 

@@ -127,7 +127,7 @@ img {
     background-color: var(--primary-color);
 }
 
-.search {
+.view__control {
     display: flex;
     align-items: center;
 }
@@ -141,15 +141,61 @@ img {
     outline: none;
 }
 
-.search__sort-button {
+.sort-section {
+    position: relative;
+}
+
+.sort-section__button {
     width: 140px;
     background-color: #F3F4F6;
     color: rgba(0, 0, 0, 0.5);
 }
 
-.search__sort-button:hover {
+.sort-section__button:hover {
     background-color: #ccc;
     cursor: pointer;
+}
+
+.sort__select {
+    position: absolute;
+    width: 160px;
+    top: 60px;
+    right: 0;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #fff;
+    list-style: none;
+    z-index: 1;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    display: none;
+    animation: fadeIn ease 0.4s;
+}
+
+.sort-section__button:focus .sort__select {
+    display: block;
+}
+
+.sort__select li {
+    padding: 10px 6px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+    display: block;
+}
+
+.sort__select li:hover {
+    background-color: #ddd;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .sell-section {
