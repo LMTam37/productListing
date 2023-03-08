@@ -141,13 +141,13 @@ img {
     outline: none;
 }
 
-.search__filter-button {
+.search__sort-button {
     width: 140px;
     background-color: #F3F4F6;
     color: rgba(0, 0, 0, 0.5);
 }
 
-.search__filter-button:hover {
+.search__sort-button:hover {
     background-color: #ccc;
     cursor: pointer;
 }
