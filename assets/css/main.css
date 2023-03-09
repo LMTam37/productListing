@@ -408,6 +408,10 @@ img {
     outline: none;
 }
 
+.footer-right .footer__list .footer__list-subcribe-form {
+    display: flex;
+}
+
 .footer-right .footer__list .footer__list-input::placeholder {
     color: #ccc;
 }
