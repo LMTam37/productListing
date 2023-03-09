@@ -10,6 +10,7 @@
 }
 
 html {
+    font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -229,6 +230,9 @@ img {
 
 .sell-section .product-item {
     display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
 }
 
 .product-item {
