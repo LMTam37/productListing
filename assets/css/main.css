@@ -232,17 +232,16 @@ img {
     display: inline-block;
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 18.431%;
 }
 
 .product-item {
     text-decoration: none;
-    margin: 0 19px 76px 19px;
+    margin: 0 19px 76px;
 }
 
 .product-item__img-section {
-    width: 282px;
-    height: 355px;
+    width: 100%;
     position: relative;
     transition: all .2s;
 }
@@ -274,19 +273,19 @@ img {
 .product-item__title {
     font-size: 22px;
     font-weight: 600;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .product-item__description {
     font-size: 16px;
-    margin-top: 4px;
+    padding-top: 4px;
 }
 
 .product-item__footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 16px;
+    padding-top: 16px;
 }
 
 .product-item__price {
