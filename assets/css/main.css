@@ -240,6 +240,7 @@ img {
     width: 282px;
     height: 355px;
     position: relative;
+    transition: all .2s;
 }
 
 .product-item__img {
@@ -252,8 +253,14 @@ img {
     padding: 6px 8px;
     border-radius: 20px;
     color: #B58333;
+    transform-origin: 0px calc(100% + 32px);
     background-color: #FFC970;
     position: absolute;
+}
+
+.sell-section .product-item:hover .product-item__img-section {
+    transform: scale(1.12);
+    transition: all .2s;
 }
 
 .product-item__content {
@@ -424,4 +431,8 @@ img {
 .footer__list-brand-img {
     margin: 0 4px;
     cursor: pointer;
+}
+
+.test {
+    width: 16.6667%;
 }
